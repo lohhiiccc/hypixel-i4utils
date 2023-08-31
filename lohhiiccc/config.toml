@@ -1,0 +1,38 @@
+
+[timer]
+
+	[timer.fire_freeze]
+		fire_freeze_timer = false
+
+	[timer.ice_spary]
+		ice_spray_timer = false
+
+[settings]
+	mage_level = 32
+
+[other]
+
+	[other.trophy_fishing]
+		golden_fish_alert = true
+		trophy_alert = true
+
+	[other.hyperion]
+		alert_message = "hype broke"
+		hype_broken_alert = false
+
+	[other.api]
+		apikey = "07f30a8d-ef1e-4a9b-a0ea-3b1aee59331d"
+
+[overlay]
+
+	[overlay.gyrokinetic_wand]
+		gyrokinetic_wand_overlay = true
+		center_color = "76,255,255,255"
+		not_ready_color = "255,0,0,0"
+		ready_color = "255,255,255,255"
+
+[api]
+
+	[api.catapi_key]
+		apikey = ""
+

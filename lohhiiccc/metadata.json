@@ -1,0 +1,13 @@
+{
+    "name": "lohhiiccc",
+    "description": "draw a circle",
+    "version": "0.0.2",
+    "author": "lohhiiccc",
+    "entry": "index.js",
+    "requires": [
+        "Vigilance",
+        "RenderLib",
+        "requestV2"
+
+    ]
+}
