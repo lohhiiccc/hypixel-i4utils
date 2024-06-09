@@ -1,13 +1,11 @@
 {
-    "name": "lohhiiccc",
-    "description": "draw a circle",
+    "name": "i4_utiles",
+    "description": "random hypixel skyblock addon",
     "version": "0.0.2",
     "author": "lohhiiccc",
     "entry": "index.js",
     "requires": [
         "Vigilance",
-        "RenderLib",
-        "requestV2"
-
+        "RenderLib"
     ]
 }
