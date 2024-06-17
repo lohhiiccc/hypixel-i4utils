@@ -2,41 +2,6 @@ import { @Vigilant, @TextProperty, @ColorProperty, @ButtonProperty, @SwitchPrope
 
 @Vigilant("i4_utiles")
 class Settings {
-    @SwitchProperty({
-        name: "ashfang beacon red",
-        description: "red",
-        category: "Nether",
-        subcategory: "Ashfang",
-        placeholder: "Activate"
-    })
-    ashfangTooglered = true;
-
-    @SwitchProperty({
-        name: "ashfang beacon black",
-        description: "black",
-        category: "Nether",
-        subcategory: "Ashfang",
-        placeholder: "Activate"
-    })
-    ashfangToogleblack = true;
-
-    @SwitchProperty({
-        name: "ashfang beacon blue",
-        description: "blue",
-        category: "Nether",
-        subcategory: "Ashfang",
-        placeholder: "Activate"
-    })
-    ashfangToogleblue = true;
-
-    @SwitchProperty({
-        name: "ashfang bouboule",
-        description: "boubbouleee",
-        category: "Nether",
-        subcategory: "Ashfang",
-        placeholder: "Activate"
-    })
-    ashfangToogleboule = true;
 
     @SwitchProperty({
         name: "Gyrokinetic Wand Overlay",
@@ -70,14 +35,6 @@ class Settings {
     })
     colorCenter = Color.BLUE;
     @SwitchProperty({
-        name: "ashfang helper",
-        description: "main toogle",
-        category: "Nether",
-        subcategory: "Ashfang",
-        placeholder: "Activate"
-    })
-    ashfangTooglemain = true;
-    @SwitchProperty({
         name: "Arrow device helper",
         description: "highlight target on device and mark old targets",
         category: "Dungeon",
@@ -110,8 +67,6 @@ class Settings {
         this.initialize(this);
         this.setCategoryDescription("Dungeon", "")
         this.setSubcategoryDescription("Dungeon", "Device helper", "")
-        this.setCategoryDescription("Nether", "")
-        this.setSubcategoryDescription("Nether", "Ashfang", "Ashfang Overlay")
         this.setCategoryDescription("Overlay", "")
         this.setSubcategoryDescription("Overlay", "Gyrokinetic Wand", "Gyrokinetic Wand Overlay")
     }

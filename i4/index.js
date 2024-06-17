@@ -1,5 +1,4 @@
 import "./features/gyro"
-import "./features/ashfang"
 import "./features/i4/i4";
 
 
