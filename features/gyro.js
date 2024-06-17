@@ -18,8 +18,8 @@ function drawGyroNotReady(x,y,z) {
 }
 
 register("renderWorld", () => {
-    if (!Config.GyroToggle || Player.getHeldItem()?.getName()?.removeFormatting() !== "Gyrokinetic Wand") return
-    else {
+    if (!(!Config.GyroToggle || Player.getHeldItem()?.getName()?.removeFormatting() !== "Gyrokinetic Wand"))
+    {
 
         let cursor = Player.getPlayer().func_174822_a(25, 0.0);
         let block_position = cursor?.func_178782_a();

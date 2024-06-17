@@ -2,12 +2,13 @@
   "creator": "lohhiiccc",
   "author": "lohhiiccc",
   "entry": "index.js",
-  "description": "arrow device helper and random stuff",
-  "name": "i4",
-  "version": "0.2",
-  "versionId": 2,
+  "description": "mousk addon's add random stuff",
+  "name": "mousk",
+  "version": "0.3",
+  "versionId": 3,
   "requires": [
     "RenderLib",
-    "Vigilance"
+    "Vigilance",
+    "BeaconBeam"
   ]
 }

@@ -1,6 +1,6 @@
 import { @Vigilant, @TextProperty, @ColorProperty, @ButtonProperty, @SwitchProperty, @SliderProperty , Color } from 'Vigilance';
 
-@Vigilant("i4")
+@Vigilant("mousk")
 class Settings {
 
     @SwitchProperty({
@@ -80,8 +80,69 @@ class Settings {
         placeholder: "Devices"
     })
     devdonedevice = "device done !";
+
+
+    @SwitchProperty({
+        name: "Ashfang overlay",
+        description: "Ashfang overlay toogle!",
+        category: "Nether",
+        subcategory: "Ashfang",
+        placeholder: "Activate"
+    })
+    AshfangToogle = true;
+
+
+    @SwitchProperty({
+        name: "Ashfang hitbox",
+        description: "Ashfang main hitbox toogle!",
+        category: "Nether",
+        subcategory: "Ashfang",
+        placeholder: "Activate"
+    })
+    AshfangHitboxToogle = true;
+
+    @SwitchProperty({
+        name: "Ashfang red waypoint",
+        description: "show Ashfang Underling! wp",
+        category: "Nether",
+        subcategory: "Ashfang waypoint toogle",
+        placeholder: "Activate"
+    })
+    AshfangRedToogle = true;
+
+    @SwitchProperty({
+        name: "Ashfang blue waypoint",
+        description: "show Ashfang Acolyte! wp",
+        category: "Nether",
+        subcategory: "Ashfang waypoint toogle",
+        placeholder: "Activate"
+    })
+    AshfangBlueToogle = true;
+
+
+    @SwitchProperty({
+        name: "Ashfang black waypoint",
+        description: "show Ashfang Follower! wp",
+        category: "Nether",
+        subcategory: "Ashfang waypoint toogle",
+        placeholder: "Activate"
+    })
+    AshfangBlackToogle = true;
+
+
+    @SwitchProperty({
+        name: "Ashfang bullet waypoint",
+        description: "show Blazing Souls! wp",
+        category: "Nether",
+        subcategory: "Ashfang waypoint toogle",
+        placeholder: "Activate"
+    })
+    AshfangBulletToogle = true;
+
     constructor() {
         this.initialize(this);
+        this.setCategoryDescription("Nether", "")
+        this.setSubcategoryDescription("Nether", "Ashfang", "config Ashfang overlay")
         this.setCategoryDescription("Dungeon", "")
         this.setSubcategoryDescription("Dungeon", "Devices", "config devices helper")
         this.setCategoryDescription("Dungeon", "")

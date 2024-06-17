@@ -1,7 +1,7 @@
 
 import RenderLib from "../../../RenderLib/index";
 
-class Renderer {
+class Renderer_dev {
     constructor(xCoords, yCoords, zCoord) {
         this.blocks = [];
 
@@ -22,4 +22,4 @@ class Renderer {
     }
 }
 
-export default Renderer;
+export default Renderer_dev;
