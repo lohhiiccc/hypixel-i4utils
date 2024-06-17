@@ -1,12 +1,12 @@
-# i4utils
+# Mousk addons
 ct module for hypixel skyblock which adds random qol functionality
 
 ## how to install
 
 - dl zip
 - ``/ct files``
-- unzip here and remove readme
+- unzip here and do ``/ct reload``
 
 ## config
 
-- ``/i4``
+- ``/mousk``
